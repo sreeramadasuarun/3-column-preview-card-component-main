@@ -28,7 +28,14 @@
       border-radius: 20px;
   }
 
-  .sedans-card {}
+  .luxury-card {
+      border-radius: 0 10px 10px 0;
+  }
+
+  .sedans-card {
+      border-radius: 10px 0px 0px 10px;
+
+  }
 
   .sedans-card,
   .luxury-card,
