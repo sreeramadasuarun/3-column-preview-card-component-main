@@ -20,14 +20,20 @@
       justify-content: center;
   }
 
+
+
+  /* ..........main........... */
+
   .container {
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
       border-radius: 20px;
+      border-radius: 0 10px 10px 0;
   }
 
+  /* 
   .luxury-card {
       border-radius: 0 10px 10px 0;
   }
@@ -35,7 +41,7 @@
   .sedans-card {
       border-radius: 10px 0px 0px 10px;
 
-  }
+  } */
 
   .sedans-card,
   .luxury-card,
@@ -49,6 +55,7 @@
       padding: 2.3rem;
       justify-content: center;
       color: hsl(0, 0%, 95%);
+
 
   }
 
@@ -74,15 +81,13 @@
   .luxury-btn,
   .suvs-btn {
       padding: 10px 22px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
+      font-size: 0.8rem;
       color: hsl(31, 77%, 52%);
       width: 8rem;
       border-radius: 20px;
       border: none;
       text-transform: capitalize;
+      cursor: pointer;
 
   }
 
