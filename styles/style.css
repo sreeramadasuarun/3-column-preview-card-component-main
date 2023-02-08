@@ -7,7 +7,7 @@
   }
 
   html {
-      font-size: 16px;
+      font-size: 15px;
   }
 
   body {
@@ -20,8 +20,6 @@
       justify-content: center;
   }
 
-
-
   /* ..........main........... */
 
   .container {
@@ -29,7 +27,6 @@
       flex-direction: row;
       border-radius: 20px;
   }
-
 
   .luxury-card {
       border-radius: 0 10px 10px 0;
@@ -61,7 +58,7 @@
   .luxury-para {
       line-height: 1.5rem;
       font-size: 0.8rem;
-      color: rgb(191, 191, 191);
+      color: hsla(0, 0%, 100%, 0.75);
       padding-bottom: 2rem;
   }
 
@@ -103,4 +100,29 @@
 
   .luxury-btn {
       color: hsl(179, 100%, 13%);
+  }
+
+
+  /* ..........mobile response........... */
+
+
+
+  @media only screen and (max-width: 600px) {
+
+
+      .container {
+          display: flex;
+          flex-direction: column;
+          height: 100vh;
+          padding: 3rem 0;
+      }
+
+      .luxury-card {
+          border-radius: 0 0 10px 10px;
+      }
+
+      .sedans-card {
+          border-radius: 10px 10px 0px 0px;
+
+      }
   }
