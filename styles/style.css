@@ -71,6 +71,7 @@
       width: 8rem;
       border-radius: 20px;
       border: none;
+      text-transform: capitalize;
 
   }
 
