@@ -27,7 +27,9 @@
       align-items: center;
   }
 
-  .sedans-card {
+  .sedans-card,
+  .luxury-card,
+  .suvs-card {
       display: flex;
       flex-direction: column;
       gap: 2rem;
@@ -40,20 +42,25 @@
 
   }
 
-  .sedans-para {
+  .sedans-para,
+  .suvs-para,
+  .luxury-para {
       line-height: 2rem;
       font-size: 0.9rem;
   }
 
-  .sedans-tittle {
+  .sedans-tittle,
+  .suvs-tittle,
+  .luxury-tittle {
       text-transform: uppercase;
       color: hsl(0, 0%, 95%);
       font-family: 'Big Shoulders Display', cursive;
 
   }
 
-  .sedans-btn {
-      /* Green */
+  .sedans-btn,
+  .luxury-btn,
+  .suvs-btn {
       padding: 10px 22px;
       text-align: center;
       text-decoration: none;
@@ -67,78 +74,18 @@
   }
 
   .suvs-card {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-      width: 17rem;
-      height: auto;
+
       background-color: hsl(184, 100%, 22%);
-      padding: 2.3rem;
-      justify-content: center;
-      color: hsl(0, 0%, 95%);
-  }
-
-  .suvs-para {
-      line-height: 2rem;
-      font-size: 0.9rem;
-  }
-
-  .suvs-tittle {
-      text-transform: uppercase;
-      color: hsl(0, 0%, 95%);
-      font-family: 'Big Shoulders Display', cursive;
-
   }
 
   .suvs-btn {
-      /* Green */
-      padding: 10px 22px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
       color: hsl(184, 100%, 22%);
-      width: 8rem;
-      border-radius: 20px;
-      border: none;
-
   }
-
 
   .luxury-card {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-      width: 17rem;
-      height: auto;
       background-color: hsl(179, 100%, 13%);
-      padding: 2.3rem;
-      justify-content: center;
-      color: hsl(0, 0%, 95%);
-  }
-
-  .luxury-para {
-      line-height: 2rem;
-      font-size: 0.9rem;
-  }
-
-  .luxury-tittle {
-      text-transform: uppercase;
-      color: hsl(0, 0%, 95%);
-      font-family: 'Big Shoulders Display', cursive;
-
   }
 
   .luxury-btn {
-      /* Green */
-      padding: 10px 22px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
       color: hsl(179, 100%, 13%);
-      width: 8rem;
-      border-radius: 20px;
-      border: none;
-
   }
