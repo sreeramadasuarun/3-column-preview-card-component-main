@@ -10,6 +10,11 @@
       font-size: 15px;
   }
 
+  img {
+      max-width: 100%;
+      height: auto;
+  }
+
   body {
       font-family: 'Lexend Deca', sans-serif;
       background-color: hsl(0, 0%, 95%);
@@ -20,12 +25,19 @@
       justify-content: center;
   }
 
+
+
+
+
+
+
+
+
   /* ..........main........... */
 
   .container {
       display: flex;
       flex-direction: row;
-      border-radius: 20px;
   }
 
   .luxury-card {
@@ -49,8 +61,6 @@
       padding: 2.3rem;
       justify-content: center;
       color: hsl(0, 0%, 95%);
-
-
   }
 
   .sedans-para,
@@ -74,11 +84,11 @@
   .sedans-btn,
   .luxury-btn,
   .suvs-btn {
-      padding: 10px 22px;
-      font-size: 0.8rem;
+      padding: 14px 22px;
+      font-size: 0.9rem;
       color: hsl(31, 77%, 52%);
       width: 8rem;
-      border-radius: 20px;
+      border-radius: 50px;
       border: none;
       text-transform: capitalize;
       cursor: pointer;
@@ -105,7 +115,7 @@
 
   /* ..........mobile response........... */
 
-
+  /* 
 
   @media only screen and (max-width: 600px) {
 
@@ -125,4 +135,4 @@
           border-radius: 10px 10px 0px 0px;
 
       }
-  }
+  } */
