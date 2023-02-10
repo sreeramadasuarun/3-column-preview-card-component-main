@@ -115,7 +115,7 @@
 
   /* ..........mobile response........... */
 
-  /* 
+  
 
   @media only screen and (max-width: 600px) {
 
@@ -127,6 +127,13 @@
           padding: 3rem 0;
       }
 
+      .sedans-card,
+      .luxury-card,
+      .suvs-card {
+          gap: 1.5rem;
+          padding: 2rem; 
+      }
+
       .luxury-card {
           border-radius: 0 0 10px 10px;
       }
@@ -135,4 +142,23 @@
           border-radius: 10px 10px 0px 0px;
 
       }
-  } */
+  }
+
+
+  
+  @media only screen and (max-width: 768px) {
+
+
+   
+  .sedans-card,
+  .luxury-card,
+  .suvs-card {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 15rem;
+      padding: 1.3rem;
+      justify-content: center;
+  }
+   
+}
